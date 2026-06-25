@@ -285,13 +285,14 @@ Test (VICE)
 ## Installation et configuration ds vscode
 
 ![Configuration Oscar64](images/config_path_oscar.png)
+
 ![Création projet Oscar64](images/create_oscar64.png)
 
-## Compilation
+## Ajout de la bibliothéque
 
 ![Include path Oscar64](images/oscar_include_path.png)
 
-## Test dans l'émulateur
+## Comfiguration de l'émulateur (ne rien mettre pour Linux)
 
 ![Émulateur C64](images/emulator_c64.png)
 
