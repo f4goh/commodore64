@@ -1,0 +1,13 @@
+{
+    "name": "chapter12",
+    "description": "Project chapter12",
+    "toolkit": "oscar64",
+    "sources": [
+        "src/main.c"
+    ],
+    "build": "debug",
+    "definitions": [],
+    "includes": [],
+    "args": [],
+    "compiler": ""
+}

@@ -1,0 +1,13 @@
+{
+    "name": "chapter08C",
+    "description": "Project chapter08C",
+    "toolkit": "oscar64",
+    "sources": [
+        "src/main.c"
+    ],
+    "build": "debug",
+    "definitions": [],
+    "includes": [],
+    "args": [],
+    "compiler": ""
+}
