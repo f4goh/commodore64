@@ -1,5 +1,4 @@
-https://fr.aliexpress.com/item/1005012047245361.html
-M6 20x13.5
+
 
 il existe aussi
 https://github.com/GeorgRottensteiner/C64Studio
@@ -169,6 +168,7 @@ Test (VICE)
 -d64   image disquette
 
 git clone https://github.com/stefanocoppi/chrome-horizon-C64
+
 
 
 
