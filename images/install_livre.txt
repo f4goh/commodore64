@@ -1,0 +1,178 @@
+https://fr.aliexpress.com/item/1005012047245361.html
+M6 20x13.5
+
+il existe aussi
+https://github.com/GeorgRottensteiner/C64Studio
+
+spritepad
+https://csdb.dk/release/?id=132081
+
+payant
+https://subchristsoftware.itch.io/spritepad-c64-pro
+
+ancienne version gratuit
+https://subchristsoftware.itch.io/charpad-c64-free
+
+multipaint via processing java
+http://multipaint.kameli.net/
+
+payant
+https://www.aseprite.org/trial/
+
+LibreSprite
+https://libresprite.github.io/#!/
+
+
+
+https://vice-emu.sourceforge.io/index.html#download
+
+sudo apt install vice
+copier les rom
+ale@ale-desktop:/usr/share/vice/C64$ cp ~/commodore64/save/*.bin .
+
+accéssible dans le menu
+
+
+installation de oscar64
+
+1. Installer les outils de compilation
+sudo apt update
+sudo apt install git build-essential cmake
+2. Récupérer les sources
+git clone https://github.com/drmortalwombat/oscar64.git
+cd oscar64
+
+ale@ale-desktop:~$ git clone https://github.com/drmortalwombat/oscar64.git
+Clonage dans 'oscar64'...
+remote: Enumerating objects: 13944, done.
+remote: Counting objects: 100% (288/288), done.
+remote: Compressing objects: 100% (128/128), done.
+remote: Total 13944 (delta 243), reused 177 (delta 160), pack-reused 13656 (from 4)
+Réception d'objets: 100% (13944/13944), 12.86 Mio | 4.19 Mio/s, fait.
+Résolution des deltas: 100% (10804/10804), fait.
+ale@ale-desktop:~$ cd oscar64/
+ale@ale-desktop:~/oscar64$ make -C make all
+
+4. Vérifier l'exécutable
+
+Cherche où le binaire a été généré :
+
+find . -type f -name oscar64
+
+Puis teste :
+
+./oscar64
+
+# Oscar64 — Guide rapide (Linux Mint / Commodore 64)
+
+## 📌 Utilisation générale
+oscar64 [options] source.c
+
+---
+
+## 📦 Générer un programme (.prg)
+-o=output.prg
+
+Exemple :
+oscar64 main.c -o=main.prg
+
+---
+
+## ⚡ Optimisation
+-O0   sans optimisation
+-O1
+-O2   recommandé
+-O3   agressif
+
+Exemple :
+oscar64 main.c -O2
+
+---
+
+## 🧪 Exécution dans l’émulateur intégré
+-e
+
+Exemple :
+oscar64 main.c -O2 -e
+
+---
+
+## 🐞 Debug
+-g
+
+---
+
+## 🚫 Pas de listing / mode simplifié
+-n
+
+---
+
+## 💾 Générer une image disquette (.d64)
+-d64=nom.d64
+
+Exemple :
+oscar64 main.c -O2 -d64=game.d64
+
+---
+
+## 🧩 Définir des macros (comme -D en gcc)
+-dSYMBOL
+-dSYMBOL=1
+
+Exemple :
+oscar64 main.c -dDEBUG
+
+---
+
+## 📁 Ajouter des includes
+-i=chemin_include
+
+Exemple :
+oscar64 main.c -i=include
+
+---
+
+## 📎 Ajouter des fichiers supplémentaires
+-f fichier
+
+---
+
+## 🚀 Exemples utiles
+
+Compilation simple :
+oscar64 main.c -O2 -o=main.prg
+
+Test direct dans émulateur :
+oscar64 main.c -O2 -e
+
+Créer une disquette C64 :
+oscar64 main.c -O2 -d64=demo.d64
+
+---
+
+## 🧠 Workflow C64 recommandé
+
+Pixel art (LibreSprite / Aseprite)
+        ↓
+Compilation (Oscar64)
+        ↓
+Test (VICE)
+
+---
+
+## ⚡ Résumé rapide
+
+-o     output .prg
+-O2    optimisation standard
+-e     exécution immédiate
+-g     debug
+-d64   image disquette
+
+git clone https://github.com/stefanocoppi/chrome-horizon-C64
+
+
+
+
+
+
+

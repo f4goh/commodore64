@@ -1,0 +1,13 @@
+{
+    "name": "C64_Hello",
+    "description": "Project C64_Hello",
+    "toolkit": "oscar64",
+    "sources": [
+        "src/main.c"
+    ],
+    "build": "debug",
+    "definitions": [],
+    "includes": [],
+    "args": [],
+    "compiler": ""
+}
